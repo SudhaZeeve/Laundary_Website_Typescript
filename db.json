@@ -114,18 +114,5 @@
       "rated": 4
     }
   ],
-  "Cart": [
-    {
-      "Name": "Up to weight 4.5 kgs",
-      "Quantity": "2",
-      "Total": 598,
-      "id": 1
-    },
-    {
-      "Name": "Up to weight 4.5 kgs",
-      "Quantity": "1",
-      "Total": 299,
-      "id": 2
-    }
-  ]
+  "Cart": []
 }

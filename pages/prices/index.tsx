@@ -34,8 +34,10 @@ const Prices = (props: TableBodyData) => {
     const [cartData, setCartData] = useState<CartObj[]>([]);
 
     const updateItem = (prop:string, event: React.ChangeEvent<HTMLSelectElement>, price:number) => {
+        if( event.target.value !== "0" ){
         const updated = { Name:prop ,Quantity: event.target.value, Total:  Number(event.target.value) * price }
         setQtyVal(updated);
+        }
     }
 
     const fetchCartData = async () => {
@@ -45,6 +47,7 @@ const Prices = (props: TableBodyData) => {
     }
 
     const createList =async () => {
+       if(qtyVal.Quantity !== undefined){
        await fetch("http://localhost:4000/cart", {
           method: "POST",
           headers: {
@@ -54,6 +57,7 @@ const Prices = (props: TableBodyData) => {
         }).then(
           () => fetchCartData()
         );
+       }
       }
     return (
         <div className="container bg-white py-10 sm:py-10 mb-8">
@@ -66,13 +70,15 @@ const Prices = (props: TableBodyData) => {
                     <h4 className="text-gray-800 mb-3 text-lg">Wash and Iron Laundry Price List</h4>
                     <CommonTable data={Object.keys(TableBodyData.ironLaundary[0])} tableBodyData={TableBodyData.ironLaundary} qty updateItem={updateItem} key="tab1" onClickAdd={createList}/> 
                 </div>
-                <div className="w-10/12 mx-auto items-center justify-center mt-8">
+                <div className="w-10/12 mx-auto items-center justify-center mt-6 ">
                     <h4 className="text-gray-800 mb-3 text-lg">Dry Clean Price List</h4>
                     <CommonTable data={Object.keys(TableBodyData.dryCleaning[0])} tableBodyData={TableBodyData.dryCleaning} qty updateItem={updateItem} key="tab2" onClickAdd={createList}/>
                 </div>
             </div>
-            <div className="mx-auto mb-0 mt-4 text-center">
-                <Link href="/checkout"><ButtonCommon Name={`Checkout :  ${cartData.length}`} /></Link>
+            <div className="mx-auto mb-8 mt-4 text-center">
+                <Link href="/checkout"><button className={` ${cartData.length !==0 ?'bg-yellow-400 hover:bg-yellow-400 ': 'bg-gray-500  text-white' } focus:outline-none px-10 py-2 rounded-lg text-gray-800 `} >
+            {`Checkout :  ${cartData.length}`}
+        </button></Link>
             </div>
 
         </div>
