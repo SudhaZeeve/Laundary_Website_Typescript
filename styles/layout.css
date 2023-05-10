@@ -1,0 +1,12 @@
+.mainBanner {
+    background-image: url("../images/banner-img.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,131 @@
+{
+  "Servicedata": [
+    {
+      "Image": "machine",
+      "Heading": "COIN & COINLESS MACHINES",
+      "Description": "Our environmentally friendly Huebsch® machines use less water and dry faster so you are done fast! You can pay with coins, the Upstate Laundromat loyalty card, Visa, or MasterCard."
+    },
+    {
+      "Image": "fold",
+      "Heading": "FLUFF & FOLD SERVICE AVAILABLE",
+      "Description": "Don’t waste valuable time doing your own laundry. Let us handle it for you! Offered 7 days a week, same day or next day available. We will notify you when your laundry is done via text."
+    },
+    {
+      "Image": "discounts",
+      "Heading": "LOYALTY DISCOUNTS",
+      "Description": "Use your Upstate Laundromat personal loyalty card to earn special discounts over time. Make sure to register your card by clicking here or by downloading the Fascard Mobile app."
+    }
+  ],
+  "accordionDataOne": [
+    {
+      "id": 1,
+      "Heading": "What are your hours?",
+      "Description": "We're open 7 days/week from 8am to 10pm."
+    },
+    {
+      "id": 2,
+      "Heading": "What is the last wash time?",
+      "Description": "The posted time for starting the last wash is 9:00 PM. This typically allows enough time for our customers to finish washing, drying and folding their clothes by 10:00 PM."
+    },
+    {
+      "id": 3,
+      "Heading": "Is coin-less laundry really coin-less?",
+      "Description": "All the machines work with a laundry card – you don’t need to bring quarters. You can use cash, VISA or MasterCard to add value to a laundry card that may be re-loaded as you use up the balance on your card."
+    },
+    {
+      "id": 4,
+      "Heading": "How do I get a new laundry card?",
+      "Description": "You may get a laundry card by visiting the VTM (Value Transfer Machine) at the back of the store. Follow the simple steps to get a laundry card and add value by inserting cash, VISA or MasterCard. You can add money to the card as needed. Our friendly staff is always available to assist you if you need help with your transaction. There is also an available mobile app, directions can be loacted near the kiosk at the back of the store."
+    },
+    {
+      "id": 5,
+      "Heading": "How do I add money to the card?",
+      "Description": "You can add money to your card using cash, VISA or MasterCard at the VTM (Value Transfer Machine) next to the office. Please see the attendant if you need any assistance with your transaction. You can also register your card with Fascard by clicking here or by downloading the Fascard Mobile Apple with Apple & Android)"
+    },
+    {
+      "id": 6,
+      "Heading": "Is my laundry card reusable/reloadable?",
+      "Description": "Yes, the card will retain any unused balance for future visits and can be reused and reloaded as often as needed. You can reload your Fascard by clicking here or download their app in your devices app store. Please note that other laudromats use the same system, however our cards only work at our location."
+    }
+  ],
+  "TableBodyData": {
+    "ironLaundary": [
+      {
+        "Cloths": "Up to weight 4.5 kgs",
+        "Price": 299
+      },
+      {
+        "Cloths": "Up to weight 5.5 kgs",
+        "Price": 330
+      }
+    ],
+    "dryCleaning": [
+      {
+        "Cloths": "Blanket/ Quilt",
+        "Price": 369
+      },
+      {
+        "Cloths": "Ladies Dress",
+        "Price": 300
+      }
+    ]
+  },
+  "TestimonialsData": [
+    {
+      "id": 1,
+      "Name": "HELEN FISLER-PARKER",
+      "Description": "Cleanest place I&apos;ve ever been. Could eat of the floor. Outstanding customer service. Gets a bit nosy at times when all the TVs are on.",
+      "Date": "Apr 3, 2023",
+      "rated": 5
+    },
+    {
+      "id": 2,
+      "Name": "ERIC BEST",
+      "Description": "Cleanest place I&apos;ve ever been. Could eat of the floor. Outstanding customer service. Gets a bit nosy at times when all the TVs are on.",
+      "Date": "Apr 3, 2023",
+      "rated": 4
+    },
+    {
+      "id": 3,
+      "Name": "ADRIAN CARNEAL",
+      "Description": "Cleanest place I&apos;ve ever been. Could eat of the floor. Outstanding customer service. Gets a bit nosy at times when all the TVs are on.",
+      "Date": "Apr 3, 2023",
+      "rated": 5
+    },
+    {
+      "id": 4,
+      "Name": "CARNEAL",
+      "Description": "Cleanest place I&apos;ve ever been. Could eat of the floor. Outstanding customer service. Gets a bit nosy at times when all the TVs are on.",
+      "Date": "Apr 3, 2023",
+      "rated": 4
+    },
+    {
+      "id": 5,
+      "Name": " BEST",
+      "Description": "Cleanest place I&apos;ve ever been. Could eat of the floor. Outstanding customer service. Gets a bit nosy at times when all the TVs are on.",
+      "Date": "Apr 3, 2023",
+      "rated": 3
+    },
+    {
+      "id": 6,
+      "Name": "ADRIAN ",
+      "Description": "Cleanest place I&apos;ve ever been. Could eat of the floor. Outstanding customer service. Gets a bit nosy at times when all the TVs are on.",
+      "Date": "Apr 3, 2023",
+      "rated": 4
+    }
+  ],
+  "Cart": [
+    {
+      "Name": "Up to weight 4.5 kgs",
+      "Quantity": "2",
+      "Total": 598,
+      "id": 1
+    },
+    {
+      "Name": "Up to weight 4.5 kgs",
+      "Quantity": "1",
+      "Total": 299,
+      "id": 2
+    }
+  ]
+}
